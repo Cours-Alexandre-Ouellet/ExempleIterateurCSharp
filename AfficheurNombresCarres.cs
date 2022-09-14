@@ -1,5 +1,4 @@
-﻿using System;
-namespace ExempleIterateur
+﻿namespace ExempleIterateur
 {
     /// <summary>
     /// Affiche le carré de nombres tant que la touche pour continuer est saisie

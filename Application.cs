@@ -6,6 +6,9 @@
         {
             // Affiche les nombres carrés
             IEnumerator<int> sequenceCarres = AfficheurNombresCarres.GetSequence();
+
+            int a = sequenceCarres.Current;
+            
             while(sequenceCarres.MoveNext())
             {
                 Console.WriteLine(sequenceCarres.Current + ", ");
