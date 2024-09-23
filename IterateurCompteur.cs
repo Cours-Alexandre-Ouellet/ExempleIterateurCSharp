@@ -5,7 +5,7 @@ namespace ExempleIterateur
     /// <summary>
     /// Itère sur les entiers de 1 à 20
     /// </summary>
-    public class IterateurVanilla : IEnumerator<int>
+    public class IterateurCompteur : IEnumerator<int>
     {
         // Valeur du plus grand entier pouvant être généré
         private const int MAX_VALEUR = 20;
@@ -23,7 +23,7 @@ namespace ExempleIterateur
         /// <summary>
         /// Crée un nouvel itérateur vanilla
         /// </summary>
-        public IterateurVanilla()
+        public IterateurCompteur()
         {
             Current = default;
         }
